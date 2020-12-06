@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      /*
+https://github.com/full-stack-bcn/problem-sets/blob/master/javascript.md
+2.Write a Javascript script in an HTML document that produces 100 paragraphs with the text "I really know how to generate some DOM, you know?". To create a paragraph and add it to the <body> use code analogous to:
+
+let p = document.createElement('p');
+p.innerText = "a new paragraph";
+document.body.appendChild(p);
+*/
+
+      for (let i = 0; i < 100; i++) {
+        let p = document.createElement("p");
+        p.innerText = "a new paragraph";
+        document.body.appendChild(p);
+      }
+    </script>
+  </body>
+</html>
