@@ -27,6 +27,9 @@ switch (op) {
   case "*":
     result = first * second;
     break;
+  case "'*'":
+    result = first * second;
+    break;
   case "/":
     result = first / second;
     break;
